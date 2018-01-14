@@ -1,6 +1,6 @@
 # Play Framework WebSocket Chat Server 
 
-Spring WebSocket Chat demo using STOMP with Angular4
+WebSocket Chat Server on Play Framework
 
 Running this with the chat frontend UI bellow.
 
