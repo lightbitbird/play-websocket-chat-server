@@ -16,7 +16,7 @@ class BroadcastActor(out: ActorRef, user: Option[String]) extends Actor with Act
       out ! Json.toJson(Chat(s, "", "LEAVE"))
       user match {
         case Some(u) =>
-          if (user == s) {
+          if (u == s) {
             out ! PoisonPill
             self ! PoisonPill
           }
